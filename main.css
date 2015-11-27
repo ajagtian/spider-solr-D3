@@ -1,0 +1,154 @@
+
+#global-nav {
+	width:100%;
+	background: #0A2933;
+	color: #819090;
+	font-weight: bold;
+	padding: 1% 0%;
+	box-shadow: 0 0 2px rgba(0, 0, 1, 1);
+}
+#global-nav-items {
+	width: 70%;
+	margin: auto;
+}
+.nav-list-h-item {
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 1%;
+}
+
+.nav-list-h-item {
+	display: inline-block;
+	padding: 0.5%;
+	border-radius: 3px;
+	background: #0A2933;
+}
+
+.nav-item-highlight {
+	display: inline-block;
+	padding: 0.5%;
+	border-radius: 3px;
+	background: #536870;
+	color: #042029;
+}
+
+#galaxy {
+	width: 100%;
+	margin: 2% 0%;
+	display: inline-block;
+	padding:0;
+}
+
+#leftSection {
+	width: 15%;
+	height: 100%;
+	display: inline-block;
+	margin-right: -0.35%;
+}
+
+#middleSection {
+	width: 70%;
+	height: 100%;
+	display: inline-block;
+	margin-right: -0.35%;
+	padding: 1%;
+}
+
+#rightSection {
+	width: 15%;
+	height: 100%;
+	display: inline-block;
+}
+
+#middleSection div {
+	padding: 1% 2% 2% 2%;
+	text-align: justify;
+}
+
+.glyphicon-minus, .glyphicon-plus {
+	float: right;
+	font-size: 50%;
+	cursor: pointer;
+}
+
+#middleSection div .content {
+	color: #536870;
+}
+#about {
+	background-color: #E7E0CB;
+}
+#team {
+	margin-top: 2%;
+	background-color: #E7E0CB;
+}
+#data-viz {
+	margin-top: 2%;
+	background-color: #E7E0CB;
+
+
+}
+
+h2 {
+	color: #259286;
+	font-family: inherit;
+	padding: 0;
+
+}
+
+#team-table {
+	padding-top: 2%;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+#team-table td{
+	padding-right: 4%;
+}
+#team-table tr{
+	margin: auto;
+}
+
+#team-table td:not(.lastRow) {
+	padding-right: 4%;
+	padding-bottom: 10%;
+}
+
+#team-table td:only(.lastRow) {
+	padding-right: 2%;
+	padding-bottom: 10%;
+}
+.profile-pic {
+	width: 65px;
+	border-radius: 50%;
+}
+
+#query-table {
+	word-break: none;
+	width: 90%;
+	margin: auto;
+}
+#query-table tr{
+	cursor: pointer;
+}
+
+#query-table tr:hover{
+	background: #475B62;
+	color:white;
+}
+
+#query-table tr:not(:last-child) td{
+	border-bottom: 1px dashed #0A2933;
+	padding-bottom: 1%;
+}
+
+#query-table tr td:nth-child(1){
+	padding-right: 2%;
+	min-width: 83px;
+	color:#259286;
+	font-weight: bold;
+}
+
+#query-table tr:nth-child(n+2) td {
+	padding-top: 2%;
+}
