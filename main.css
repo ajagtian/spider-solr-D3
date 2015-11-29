@@ -236,7 +236,7 @@ h3 {
 }
 #query-5-1{
 	padding: 0% !important;
-	margin: 10% 0% 0% -18%;
+	margin: 3% 0% 0% -18%;
 }
 .footnote {
 	font-weight: bold;
@@ -252,4 +252,22 @@ h3 {
 }
 circle {
 	cursor: pointer;
+}
+
+path:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+#query-5-1-country-selector {
+	margin: 6% 0 0 0;
+	padding: 0% !important;
+}
+
+#query-5-1-country-selector input {
+	background: #E7E0CB;
+	border: 2px solid #0A2933;
+	box-shadow: 0;
+	padding-left: 2%;
+	color:#0A2933;
 }

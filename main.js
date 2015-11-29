@@ -15,6 +15,7 @@ App = {
 		App.navItemClickEvent();
 		App.querySelector();
 		App.tooltip();
+		App.dropdownAction();
 	},
 	lala : function () {
 		$(".lala").click(function() {
@@ -149,6 +150,15 @@ App = {
 		$("body").on("click", ".tool-tip", function(){
 			$(this).removeClass("active-tooltip")
 				.css("display", "none");
+		})
+	},
+	dropdownAction : function () {
+		$("#query-5-1-country-selector input").focus(function() {
+			$(this).val("");
+		})
+
+		$("#query-5-1-country-selector input").blur(function() {
+			$(this).val("");
 		})
 	}
 
