@@ -32,7 +32,46 @@ App = {
 		$(".nav-list-h-item").click(function() {
 			$(".nav-list-h-item")
 				.removeClass("nav-item-highlight");
-			$(this).addClass("nav-item-highlight");
+			if($(this).attr("id") != "nav-item-6") {
+				$(this).addClass("nav-item-highlight");
+			}
+		});
+		$(".nav-list-h-item.dropdown-item").click(function() {
+			if ($(this).find(".dropdown-list").hasClass("hidden")) {
+				$(this).find(".dropdown-list").removeClass("hidden");
+				$(this).children().first().find("span")
+					.removeClass("glyphicon-plus")
+					.addClass("glyphicon-minus");
+			} else {
+				$(this).find(".dropdown-list").addClass("hidden");
+				$(this).children().first().find("span")
+					.removeClass("glyphicon-minus")
+					.addClass("glyphicon-plus");
+
+			}
+			
+		});
+
+		$("#expand-collapse-all").click(function() {
+			if ($(this).find(".glyphicon")
+					.hasClass("glyphicon-minus")) {
+				$(this).find(".glyphicon-minus")
+					.removeClass("glyphicon-minus")
+					.addClass("glyphicon-plus");
+				$("#middleSection div div:nth-child(2)").slideUp();
+				$("#middleSection div div.header h2 span")
+					.removeClass("glyphicon-minus")
+					.addClass("glyphicon-plus");
+			} else {
+				$(this).find(".glyphicon-plus")
+					.removeClass("glyphicon-plus")
+					.addClass("glyphicon-minus");
+				$("#middleSection div div:nth-child(2)").slideDown();
+				$("#middleSection div div.header h2 span")
+					.removeClass("glyphicon-plus")
+					.addClass("glyphicon-minus");
+			}
+			
 		});
 	},
 	expandCollapsClickEvent : function() {
@@ -50,6 +89,11 @@ App = {
 		});
 	},
 	navItemClickEvent : function() {
+		$("#nav-item-1").click(function() {
+			$('html, body').animate({
+        		scrollTop: $("#universe").offset().top
+    		}, 1000);
+		});
 		$("#nav-item-2").click(function() {
 			$('html, body').animate({
         		scrollTop: $("#data-viz").offset().top

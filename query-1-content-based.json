@@ -1,0 +1,155 @@
+{
+    "responseHeader": {
+        "status": 0,
+        "QTime": 540,
+        "params": {
+            "q": "availabilityStarts:NOW-2YEAR TO *",
+            "indent": "true",
+            "wt": "json"
+        }
+    },
+    "response": {
+        "numFound": 168357,
+        "start": 0,
+        "docs": [
+            {
+                "tstamp": "1443575152017",
+                "segment": "1",
+                "digest": "f559f12bb4703f8263cd7dcdcdd0be1e",
+                "boost": "1.0438721",
+                "id": "http://www.sanjoseguntrader.com/",
+                "title": "San Jose Gun Trader - Home",
+                "url": "http://www.sanjoseguntrader.com/",
+                "_version_": "1516432064785678337"
+            },
+            {
+                "tstamp": "1443578064757",
+                "segment": "1",
+                "anchor": [
+                    "Large KSL.com Logo Small KSL.com Logo",
+                    "News",
+                    "LAUNCH KSL.COM",
+                    "KSL",
+                    "KSL.com"
+                ],
+                "digest": "d438340095427a9650e5f9a81832c6d7",
+                "boost": "1.0000716",
+                "id": "http://www.ksl.com/",
+                "title": "Utah News, Sports, Weather and Classifieds | KSL.com",
+                "url": "http://m.ksl.com/",
+                "_version_": "1516432047550234624"
+            },
+            {
+                "tstamp": "1443575151151",
+                "segment": "1",
+                "digest": "26dd69c84d1def600e6115fc3b1e89ba",
+                "boost": "1.0255069",
+                "id": "http://www.theoutdoorstrader.com/",
+                "title": "The Outdoors Trader",
+                "url": "http://www.theoutdoorstrader.com/",
+                "_version_": "1516432066413068288"
+            },
+            {
+                "tstamp": "1443575151292",
+                "segment": "1",
+                "anchor": "www.tell-n-sell.com/",
+                "digest": "bb10c3f59c9adac3f2c696d6d7c6adc0",
+                "boost": "1.0188768",
+                "id": "http://www.tell-n-sell.com/",
+                "title": "Free Savannah Classified Ads, Southeast Georgia Free Classified Ads, Savannah Used Cars, Job Classif",
+                "url": "http://www.tell-n-sell.com/",
+                "_version_": "1516432065935966209"
+            },
+            {
+                "tstamp": "1443575151153",
+                "segment": "1",
+                "digest": "921175846d1ac2d953103a1f58cf4706",
+                "boost": "1.0382004",
+                "id": "http://www.zidaho.com/",
+                "title": "Local IDAHO Classifieds !",
+                "url": "http://www.zidaho.com/",
+                "_version_": "1516432078067990528"
+            },
+            {
+                "tstamp": "1443575151095",
+                "segment": "1",
+                "digest": "8a3e6f298d3df103ea8636edb3d34602",
+                "boost": "1.0465362",
+                "id": "http://www.upstateguntrader.com/",
+                "title": "• Index page",
+                "url": "http://www.upstateguntrader.com/",
+                "_version_": "1516432077840449536"
+            },
+            {
+                "tstamp": "1443575151125",
+                "segment": "1",
+                "anchor": [
+                    "Gun Classifieds",
+                    "Gun Classifieds"
+                ],
+                "digest": "dd6f2d8e968db48c5af642b1c6a77f7e",
+                "boost": "1.0631822",
+                "id": "http://www.ncgunads.com/",
+                "title": "For Sale :: North Carolina's Gun & Hunting Classifieds",
+                "url": "http://www.ncgunads.com/",
+                "_version_": "1516432057543163904"
+            },
+            {
+                "tstamp": "1443575816960",
+                "segment": "2",
+                "digest": "6d220ac889a895ad96cf2e9afb0a4b45",
+                "boost": "0.30546293",
+                "id": "http://www.sanjoseguntrader.com/home/great-hard-to-find-guns-in-stock",
+                "title": "Great, hard to find guns in stock - San Jose Gun Trader",
+                "url": "http://www.sanjoseguntrader.com/home/great-hard-to-find-guns-in-stock",
+                "_version_": "1516432064790921217"
+            },
+            {
+                "tstamp": "1443575508841",
+                "segment": "2",
+                "digest": "972f4b81038436d136826f63245515e3",
+                "boost": "0.3104777",
+                "id": "http://www.sanjoseguntrader.com/home/we-are-moving",
+                "title": "We are Moving!! - San Jose Gun Trader",
+                "url": "http://www.sanjoseguntrader.com/home/we-are-moving",
+                "_version_": "1516432064791969793"
+            },
+            {
+                "tstamp": "1443575594577",
+                "segment": "1",
+                "anchor": [
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Kentucky Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Classifieds",
+                    "Kentucky Classifieds",
+                    "Classifieds",
+                    "Kentucky Classifieds - Kyclassifieds.com",
+                    "Classifieds",
+                    "Kentucky Classifieds",
+                    "Kentucky Classifieds"
+                ],
+                "digest": "aa88736ed7b0f1a8c318ba8bcffd21b8",
+                "boost": "1.012051",
+                "id": "http://www.kyclassifieds.com/",
+                "title": "Free Kentuckiana Classifieds - Scam Free Local Ads",
+                "url": "http://kyclassifieds.com/",
+                "_version_": "1516432053906702336"
+            }
+        ]
+    }
+}
