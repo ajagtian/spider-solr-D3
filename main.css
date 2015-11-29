@@ -90,8 +90,15 @@
 	color: #536870;
 }
 #about {
+	margin-top: 2%;
 	background-color: #E7E0CB;
 }
+
+.query {
+	background-color: #E7E0CB;
+	height:100px;
+}
+
 #team {
 	margin-top: 2%;
 	background-color: #E7E0CB;
@@ -108,7 +115,14 @@ h2 {
 	font-family: inherit;
 	padding: 0;
 	font-size: 140%;
+}
 
+h3 {
+	color: #259286;
+	font-family: inherit;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
 }
 
 #team-table {
@@ -138,6 +152,11 @@ h2 {
 	width: 65px;
 	border-radius: 50%;
 }
+
+.profile-pic.lala {
+	cursor: pointer;
+}
+
 
 #query-table {
 	word-break: none;
@@ -180,4 +199,57 @@ h2 {
 	padding-right: 3%;
 	font-size: 145%;
 	color:#259286;
+}
+
+#go-to-top {
+	width:1.8%;
+	text-align: right;
+	position: fixed;
+	right: 6.5%;
+	bottom: 0px;
+	font-size: 120%;
+	color: #259286;
+	cursor: pointer;
+}
+
+.accent {
+	font-style: italic;
+}
+.orange-accent {
+	color: #BD3613;
+}
+
+.pink-accent {
+	color: #C61C6F;
+}
+.feature {
+	fill: none;
+	stroke: #819090;
+	stroke-width: 1px;
+  	stroke-linejoin: round;
+}
+.mesh {
+	fill: none;
+	stroke: #708284;
+  	stroke-width: 2px;
+  	stroke-linejoin: round;
+}
+#query-5-1{
+	padding: 0% !important;
+	margin: 10% 0% 0% -18%;
+}
+.footnote {
+	font-weight: bold;
+}
+#query-5-1 svg path{
+	z-index: 999;
+	box-shadow: 0 0 -100px rgba(0, 0, 1, 0.6);
+}
+.glyphicon-refresh-animate {
+    -animation: spin .7s 3 linear;
+    -webkit-animation: spin2 .7s 3 linear;
+    margin-left: 4%;
+}
+circle {
+	cursor: pointer;
 }

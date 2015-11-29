@@ -1,10 +1,41 @@
-var palette;
+var lala = 0;
+
+var tooltip = d3.select('body').append('div')
+		.style('position', 'absolute')
+		.style('padding', '0 10')
+		.style('background', '#E7E0CB')
+		.style('opacity', '0');
+
 App = {
 	init : function() {
+		App.lala();
 		App.setPalette();
 		App.navClickEvent();
 		App.expandCollapsClickEvent();
 		App.navItemClickEvent();
+		App.querySelector();
+		App.tooltip();
+	},
+	lala : function () {
+		$(".lala").click(function() {
+			lala += 1;
+			if (lala == 10) {
+				$(this).attr('data-src', $(this).attr('src'));
+				$(this).attr("src", "http://cdn.meme.am/instances/61836288.jpg")
+					.css("width", "140px")
+					.css("border-radius", "0px");
+			} else if (lala == 11) {
+				$(this).attr('src', $(this).attr('data-src'))
+					.css("width", "65px")
+					.css("border-radius", "50px");
+				lala = 0;
+			}
+			var ele = $(this).parent().next();
+			ele.html(lala);
+			setTimeout(function() {
+				ele.html("Rahul Agarwal");
+			}, 200);
+		});
 	},
 	setPalette : function() {
 		palette = {
@@ -49,7 +80,6 @@ App = {
 					.addClass("glyphicon-plus");
 
 			}
-			
 		});
 
 		$("#expand-collapse-all").click(function() {
@@ -90,9 +120,7 @@ App = {
 	},
 	navItemClickEvent : function() {
 		$("#nav-item-1").click(function() {
-			$('html, body').animate({
-        		scrollTop: $("#universe").offset().top
-    		}, 1000);
+			window.location.href = "./index.html";
 		});
 		$("#nav-item-2").click(function() {
 			$('html, body').animate({
@@ -105,5 +133,23 @@ App = {
         		scrollTop: $("#").offset().top
     		}, 1000);
 		});
+
+		$("#go-to-top").click(function() {
+			$('html, body').animate({
+        		scrollTop: $("#universe").offset().top
+    		}, 1000);
+		});
+	},
+	querySelector : function() {
+		$(".query-n").click(function() {
+			window.open($(this).attr("id")+".html");
+		});
+	},
+	tooltip : function () {
+		$("body").on("click", ".tool-tip", function(){
+			$(this).removeClass("active-tooltip")
+				.css("display", "none");
+		})
 	}
+
 }
