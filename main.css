@@ -271,3 +271,10 @@ path:hover {
 	padding-left: 2%;
 	color:#0A2933;
 }
+
+option {
+	background: #E7E0CB;
+	box-shadow: 0;
+	padding-left: 2%;
+	color:#0A2933;
+}

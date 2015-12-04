@@ -1,11 +1,5 @@
 var lala = 0;
 
-var tooltip = d3.select('body').append('div')
-		.style('position', 'absolute')
-		.style('padding', '0 10')
-		.style('background', '#E7E0CB')
-		.style('opacity', '0');
-
 App = {
 	init : function() {
 		App.lala();
@@ -154,10 +148,6 @@ App = {
 	},
 	dropdownAction : function () {
 		$("#query-5-1-country-selector input").focus(function() {
-			$(this).val("");
-		})
-
-		$("#query-5-1-country-selector input").blur(function() {
 			$(this).val("");
 		})
 	}

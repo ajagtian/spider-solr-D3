@@ -30,6 +30,22 @@ d3.json(query_5_1_url, function (data) {
 	}
 });
 
+d3.json(query_5_1_url, function (data) {
+	for (var i = 0; i<data.response.docs.length; i++) {
+		doc = data.response.docs[i];
+		mapData.push({
+			address: doc["availableAtOrFrom.address.name"],
+			description: doc["description"],
+			lat: doc["geonames_address.geo.lat"],
+			lon: doc["geonames_address.geo.lon"],
+			price: doc["priceCurrency"] + " " + doc["price"],
+			publisher: doc["publisher.name"],
+			title: doc["title"],
+			url: doc["url"]
+		});
+		totalDocs++;	
+	}
+});
 
 var width = 950,
     height = 550;
@@ -48,7 +64,7 @@ d3.json("http://bl.ocks.org/mbostock/raw/4090846/us.json", function(error, topo)
 
   	// set projection parameters
   	projection
-      .scale(1000)
+      .scale(850)
       .center([-106, 37.5])
 
     // create svg variable
@@ -110,13 +126,15 @@ d3.json("http://bl.ocks.org/mbostock/raw/4090846/us.json", function(error, topo)
 				tooltip.classed({
 					"active-tooltip": true
 				})
+				.style("opacity", "0.9")
 				tooltip.html(function() {
 					return "<code><a href = '"+d.url+"' target='_blank'>"+d.title+"</a></code>"+
 						   "<hr />"+
 						   "<code>"+d.address+"</code>"+
 						   "<hr/>"+
-						   "<p>"+d.description+"</p>"+
 						   "<p><code>"+d.price+"</code></p>"+
+						   "<hr/>"+
+						   "<p>"+d.description+"</p>"+
 						   "<p>"+d.publisher+"</p>";
 				})
 					.style('left', (d3.event.pageX-10) + 'px')
