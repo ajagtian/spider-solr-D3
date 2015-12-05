@@ -7,6 +7,30 @@
 		<link rel="stylesheet" type="text/css" href="./_/base.css" />
 		<link rel="stylesheet" type="text/css" href="./main.css" />
 		<link rel="icon favicon"  href="http://www.gifwave.com/media/2095_spider_200s.gif">
+		<style>
+			.node {
+  				cursor: pointer;
+			}
+
+			.node circle {
+  				fill: #fff;
+  				stroke: steelblue;
+  				stroke-width: 1.5px;
+			}
+
+			.node text {
+  				font: 12px sans-serif;
+			}
+
+			.link {
+  				fill: none;
+  				stroke: #ccc;
+  				stroke-width: 1.5px;
+			}
+			.chart {
+				margin-top: 7%;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="universe">
@@ -43,10 +67,10 @@
 					<div class = "query">
 						<div class = "header">
 							<h3>
-								5: Identify ads and/or image that relate to the unlawful transfer sale and possession of <span class = "accent orange-accent">explosives, WMD, and precursors.</span>
+								1.1: <span class = "accent orange-accent">Time based trends</span> in Gun Ads.
 							</h3>
 						</div>
-						<div id = "query-5-1-country-selector" class = "dropdown">
+						<div id = "query-1-1-country-selector" class = "dropdown">
 							<input list="countries" name="countries" value = "USA">
   							<datalist id="countries">
     							<option value="USA">
@@ -58,12 +82,23 @@
     							<option value="Russia">
   							</datalist>
 						</div>
-						<div class = "content chart" id = "query-5-1"></div>
-						<div id = "query-5-1-footnote" class = "footnote">
-							<span class = "pink-accent"><span class = "glyphicon glyphicon-certificate">&nbsp;</span>Areas prone to unlawful transactions of weapons, explosives, etc.</span>
+						<div class = "content chart" id = "query-1-1"></div>
+						<div id = "query-1-1-footnote" class = "footnote">
+							<span>
+								Above figure gives an estimate of number of guns ads as a <span class = "accent pink-accent">funtion of time</span> in United States. It provides a month-wise segregation of most popular ad platforms for a period of two years. 
+								<br><br>
+								<span class = "pink-accent">Two important observations are...
+								<ol>
+									<li>1.	Gun sales in 2014 were deinitely more 2015 (superannuated).</li>
+									<li>2.	Gun sales peek during June-July for both 2014, and 2015.</li>
+								</ol>
+							</span>
+							</span>
 						</div>
 					</div>
 				</div>
+				</div>
+
 				<div id="rightSection">
 					<div id = "go-to-top" title="Top">
 						<p><span class = "glyphicon glyphicon-triangle-top"></span></p>
@@ -76,7 +111,7 @@
 		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 		<script src="http://d3js.org/topojson.v1.min.js"></script>
 		<script type="text/javascript" src = "./main.js"></script>
-		<script type="text/javascript" src = "./query-5.js"></script>
+		<script type="text/javascript" src = "./query1-1.js"></script>
 		<script type="text/javascript">
 			App.init();
 		</script>

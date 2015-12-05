@@ -1,0 +1,56 @@
+{
+    "name": "All Regions",
+    "children": [
+        {
+            "name": "2014",
+            "children": [
+                {
+                    "name": "WEST",
+                    "size": 50,
+                    "children":[
+                      {"name":"PACIFIC",
+                      "size": 20},
+                      {"name":"MOUNTAIN",
+                      "size": 30}
+                    ]
+                },
+                {
+                    "name": "MID_WEST",
+                    "size": 30,
+                    "children":[
+                      {"name":"WEST_NORTH_CENTRAL",
+                      "size": 25},
+                      {"name":"EAST_NORTH_CENTRAL",
+                      "size": 15}
+                    ]
+                },
+                {
+                    "name": "NORTHEAST",
+                    "size": 10,
+                    "children":[
+                      {"name":"MIDDLE_ATLANTIC",
+                      "size": 5},
+                      {"name":"NEW_ENGLAND",
+                      "size": 5}
+                    ]
+                },
+                {
+                    "name": "SOUTH",
+                    "size": 100,
+                    "children":[
+                      {"name":"WEST_SOUTH_CENTRAL",
+                      "size": 25},
+                      {"name":"EAST_SOUTH_CENTRAL",
+                      "size": 15},
+                      {"name":"SOUTH_ATLANTIC",
+                      "size": 60}
+                    ]
+                },
+                {
+                    "name": "PACIFIC",
+                    "size": 66
+                }
+            ]
+        }
+    ]
+}

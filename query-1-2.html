@@ -7,6 +7,30 @@
 		<link rel="stylesheet" type="text/css" href="./_/base.css" />
 		<link rel="stylesheet" type="text/css" href="./main.css" />
 		<link rel="icon favicon"  href="http://www.gifwave.com/media/2095_spider_200s.gif">
+		<style>
+			.node {
+  				cursor: pointer;
+			}
+
+			.node circle {
+  				fill: #fff;
+  				stroke: steelblue;
+  				stroke-width: 1.5px;
+			}
+
+			.node text {
+  				font: 12px sans-serif;
+			}
+
+			.link {
+  				fill: none;
+  				stroke: #ccc;
+  				stroke-width: 1.5px;
+			}
+			.chart {
+				margin-top: 7%;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="universe">
@@ -43,27 +67,24 @@
 					<div class = "query">
 						<div class = "header">
 							<h3>
-								5: Identify ads and/or image that relate to the unlawful transfer sale and possession of <span class = "accent orange-accent">explosives, WMD, and precursors.</span>
+								1.2: Correlation between <span class = "accent orange-accent">temporal and spatial</span> properties of the buyers.
 							</h3>
 						</div>
-						<div id = "query-5-1-country-selector" class = "dropdown">
-							<input list="countries" name="countries" value = "USA">
-  							<datalist id="countries">
-    							<option value="USA">
-    							<option value="World">
-    							<option value="UK">
-    							<option value="India">
-    							<option value="France">
-    							<option value="China">
-    							<option value="Russia">
-  							</datalist>
+						
+						<div class = "content chart" id = "query-1-2-2015"></div>
+						<div id = "query-1-2-footnote" class = "footnote">
+							<span class = "accent pink-accent">2015: Region wise distribution of guns purchases. </span>
+							Area of circle is directly propotional to sales.
 						</div>
-						<div class = "content chart" id = "query-5-1"></div>
-						<div id = "query-5-1-footnote" class = "footnote">
-							<span class = "pink-accent"><span class = "glyphicon glyphicon-certificate">&nbsp;</span>Areas prone to unlawful transactions of weapons, explosives, etc.</span>
+						<div class = "content chart" id = "query-1-2-2014"></div>
+						<div id = "query-1-2-footnote" class = "footnote">
+							<span class = "accent pink-accent">2014: Region wise distribution of guns purchases. </span>
+							Area of circle is directly propotional to sales. 2014 sales were higher than 2015.
 						</div>
 					</div>
 				</div>
+				</div>
+
 				<div id="rightSection">
 					<div id = "go-to-top" title="Top">
 						<p><span class = "glyphicon glyphicon-triangle-top"></span></p>
@@ -76,7 +97,7 @@
 		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 		<script src="http://d3js.org/topojson.v1.min.js"></script>
 		<script type="text/javascript" src = "./main.js"></script>
-		<script type="text/javascript" src = "./query-5.js"></script>
+		<script type="text/javascript" src = "./query-1-2.js"></script>
 		<script type="text/javascript">
 			App.init();
 		</script>

@@ -238,6 +238,16 @@ h3 {
 	padding: 0% !important;
 	margin: 3% 0% 0% -18%;
 }
+
+#query-1-1{
+	padding: 0% !important;
+	margin: 3% 0% 0% -18%;
+}
+
+#query-1-2{
+	padding: 0% !important;
+	margin: 3% 0% 0% -18%;
+}
 .footnote {
 	font-weight: bold;
 }
@@ -259,12 +269,12 @@ path:hover {
 	cursor: pointer;
 }
 
-#query-5-1-country-selector {
+.dropdown {
 	margin: 6% 0 0 0;
 	padding: 0% !important;
 }
 
-#query-5-1-country-selector input {
+.dropdown input {
 	background: #E7E0CB;
 	border: 2px solid #0A2933;
 	box-shadow: 0;

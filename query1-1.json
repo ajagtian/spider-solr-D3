@@ -1,0 +1,203 @@
+{
+    "name": "All documents",
+    "children": [
+        {
+            "name": "2014",
+            "children": [
+                {
+                    "name": "January",
+                    "children": [
+                        {
+                            "name": "~11,220",
+                            "children": [
+                                {"name":"armslits.com"},
+                                {"name":"happyshooter.com"},
+                                {"name":"theguncompany.com"},
+                                {"name":"accurateshoote.com"}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "February",
+                    "children": [
+                        {
+                            "name": "~12,230"
+                        }
+                    ]
+                },
+                {
+                    "name": "March",
+                    "children": [
+                        {
+                            "name": "~11,110"
+                        }
+                    ]
+                },
+                {
+                    "name": "April",
+                    "children": [
+                        {
+                            "name": "~15,000"
+                        }
+                    ]
+                },
+                {
+                    "name": "May",
+                    "children": [
+                        {
+                            "name": "~20,120"
+                        }
+                    ]
+                },
+                {
+                    "name": "June",
+                    "children": [
+                        {
+                            "name": "~22,230"
+                        }
+                    ]
+                },
+                {
+                    "name": "July",
+                    "children": [
+                        {
+                            "name": "~25,110"
+                        }
+                    ]
+                },
+                {
+                    "name": "August",
+                    "children": [
+                        {
+                            "name": "~21,225"
+                        }
+                    ]
+                },
+                {
+                    "name": "September",
+                    "children": [
+                        {
+                            "name": "~15,790"
+                        }
+                    ]
+                },
+                {
+                    "name": "October",
+                    "children": [
+                        {
+                            "name": "~12,340"
+                        }
+                    ]
+                },
+                {
+                    "name": "November",
+                    "children": [
+                        {
+                            "name": "~11,190"
+                        }
+                    ]
+                },
+                {
+                    "name": "December",
+                    "children": [
+                        {
+                            "name": "~12,225"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2015",
+            "children": [
+                {
+                    "name": "January",
+                    "children": [
+                        {
+                            "name": "~9,123",
+                            "children": [
+                                {"name":"armslits.com"},
+                                {"name":"happyshooter.com"},
+                                {"name":"theguncompany.com"},
+                                {"name":"accurateshoote.com"}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "February",
+                    "children": [
+                        {
+                            "name": "~8,555"
+                        }
+                    ]
+                },
+                {
+                    "name": "March",
+                    "children": [
+                        {
+                            "name": "~4,331"
+                        }
+                    ]
+                },
+                {
+                    "name": "April",
+                    "children": [
+                        {
+                            "name": "~10,248"                        
+                        }
+                    ]
+                },
+                {
+                    "name": "May",
+                    "children": [
+                        {
+                            "name": "~15,034"
+                        }
+                    ]
+                },
+                {
+                    "name": "June",
+                    "children": [
+                        {
+                            "name": "~20,234"
+                        }
+                    ]
+                },
+                {
+                    "name": "July",
+                    "children": [
+                        {
+                            "name": "~22,088"
+                        }
+                    ]
+                },
+                {
+                    "name": "August",
+                    "children": [
+                        {
+                            "name": "~11,455"
+                        }
+                    ]
+                },
+                {
+                    "name": "August",
+                    "children": [
+                        {
+                            "name": "~3,976"
+                        }
+                    ]
+                },
+                {
+                    "name": "September",
+                    "children": [
+                        {
+                            "name": "~12,854"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

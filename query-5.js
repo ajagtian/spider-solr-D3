@@ -3,6 +3,7 @@
 */
 
 var mapData = [];
+
 var query_5_1_url = "http://tinyurl.com/q7egsdt";
 var totalDocs = 0;
 
