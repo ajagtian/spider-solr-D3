@@ -1,0 +1,113 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "Januray ",
+   "size": 121,
+   "children": [
+        {"name": "California", "size": 54},
+        {"name": "Texas", "size": 40},
+        {"name": "Washington", "size": 27}
+       ]
+  },
+  {
+   "name": "February ",
+   "size": 108,
+   "children": [
+        {"name": "California", "size": 53},
+        {"name": "Texas", "size": 36},
+        {"name": "Washington", "size": 19}
+       ]
+  },
+  {
+   "name": "March ",
+   "size": 175,
+   "children": [
+        {"name": "California", "size": 101 },
+        {"name": "Texas", "size": 44},
+        {"name": "Washington", "size": 30}
+       ]
+  },
+  {
+   "name": "April ",
+   "size": 120,
+   "children": [
+        {"name": "California", "size": 53},
+        {"name": "Texas", "size": 41},
+        {"name": "Washington", "size": 25}
+       ]
+  },
+  {
+   "name": "May ",
+   "size": 204,
+   "children": [
+        {"name": "California", "size": 49},
+        {"name": "Texas", "size": 41},
+        {"name": "Washington", "size": 114}
+       ]
+  },
+  {
+   "name": "June ",
+   "size": 132,
+   "children": [
+        {"name": "California", "size": 42},
+        {"name": "Texas", "size": 51},
+        {"name": "Washington", "size": 41}
+       ]
+  },
+  {
+   "name": "July ",
+   "size": 113,
+   "children": [
+        {"name": "California", "size": 44},
+        {"name": "Texas", "size": 44},
+        {"name": "Washington", "size": 35}
+       ]
+  },
+  {
+   "name": "August ",
+   "size": 99,
+   "children": [
+        {"name": "California", "size": 31},
+        {"name": "Texas", "size": 41},
+        {"name": "Washington", "size": 27}
+       ]
+  },
+  {
+   "name": "September ",
+   "size": 241,
+   "children": [
+        {"name": "California", "size": 152},
+        {"name": "Texas", "size": 49},
+        {"name": "Washington", "size": 40}
+       ]
+  },
+  {
+   "name": "October ",
+   "size": 121,
+   "children": [
+        {"name": "California", "size": 54},
+        {"name": "Texas", "size": 37},
+        {"name": "Washington", "size": 30}
+       ]
+  },
+  {
+   "name": "November ",
+   "size": 118,
+   "children": [
+        {"name": "California", "size": 49},
+        {"name": "Texas", "size": 38},
+        {"name": "Washington", "size": 31}
+       ]
+  },
+  {
+   "name": "December ",
+   "size": 126,
+   "children": [
+        {"name": "California", "size": 48},
+        {"name": "Texas", "size": 42},
+        {"name": "Washington", "size": 36}
+       ]
+  }
+ ]
+}

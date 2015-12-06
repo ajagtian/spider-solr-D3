@@ -118,16 +118,16 @@ App = {
 			window.location.href = "./index.html";
 		});
 		$("#nav-item-2").click(function() {
-			$('html, body').animate({
-        		scrollTop: $("#data-viz").offset().top
-    		}, 1000);
+			window.location.href = "./index.html#data-viz";
 		});
 
 		$("#nav-item-3").click(function() {
-			$('html, body').animate({
-        		scrollTop: $("#").offset().top
-    		}, 1000);
+			window.location.href = "./facetview.html";
 		});
+		$("#nav-item-4").click(function() {
+			window.location.href = "http://localhost:8983/solr/banana/src/index.html#/dashboard";
+		});
+
 
 		$("#go-to-top").click(function() {
 			$('html, body').animate({

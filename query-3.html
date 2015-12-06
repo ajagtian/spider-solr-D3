@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset = "utf-8" />
+		<title>query-3</title>
+		<link rel="stylesheet" type="text/css" href="./_/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./_/base.css" />
+		<link rel="stylesheet" type="text/css" href="./main.css" />
+		<link rel="icon favicon"  href="http://www.gifwave.com/media/2095_spider_200s.gif">
+		<style>
+<style type="text/css">
+   .y.axisRight text {
+    fill: orange;
+}
+.y.axisLeft text {
+    fill: steelblue;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.bar1 {
+  fill: steelblue;
+}
+.bar2 {
+  fill: orange;
+}
+.x.axis path {
+  display: none;
+}
+    </style>
+
+</style>
+	</head>
+	<body>
+		<div id="universe">
+			<nav id = "global-nav">
+				<ol id="global-nav-items" class = "nav-list-h">
+					<li id="nav-item-1" class = "nav-list-h-item nav-item-highlight">
+						<div>Home</div>
+					</li>
+					<li id="nav-item-3" class = "nav-list-h-item">
+						<div>Facet Search</div>
+					</li>
+					<li id="nav-item-4" class = "nav-list-h-item">
+						<div>Dashboards</div>
+					</li>
+					<li id="nav-item-6" class = "nav-list-h-item">
+						<div id = "expand-collapse-all" class = "expand"><span class = "glyphicon glyphicon-minus"></span></div>
+					</li>
+				</ol>
+			</nav>
+			<div id = "galaxy">
+				<div id="leftSection">
+				</div>
+				<div id="middleSection">
+					<div class = "query">
+						<div class = "header">
+							<h3>
+								3: When shipment of <span class = "accent orange-accent">bulk firearms is stolen, the rate of ads and images may indicate an increase in sales of that particular make/model.</span> Identify these.
+								<br/>
+								<span class = "accent">-> Example: Ruger sale in USA(2014)</span>
+							</h3>
+						</div>
+						<div class = "content chart" id = "query-3"></div>
+					</div>
+				</div>
+				<div id="rightSection">
+					<div id = "go-to-top" title="Top">
+						<p><span class = "glyphicon glyphicon-triangle-top"></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src = "./_/bootstrap.min.js"></script>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+		<script type="text/javascript" src = "./main.js"></script>
+		<script type="text/javascript" src = "./query-3.js"></script>
+		<script type="text/javascript">
+			App.init();
+		</script>
+	</body>
+</html>

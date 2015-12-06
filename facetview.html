@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Team-38</title>
+
+  <script type="text/javascript" src="vendor/jquery/1.7.1/jquery-1.7.1.min.js"></script>
+
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>  
+
+  <script type="text/javascript" src="vendor/linkify/1.0/jquery.linkify-1.0-min.js"></script>  
+  
+  <link rel="stylesheet" href="vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.css">
+  <script type="text/javascript" src="vendor/jquery-ui-1.8.18.custom/jquery-ui-1.8.18.custom.min.js"></script>
+
+  <script type="text/javascript" src="jquery.facetview.js"></script>
+
+  <link rel="stylesheet" href="css/facetview.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Load c3.css -->
+  <link href="vendor/c3-0.4.10/c3.css" rel="stylesheet" type="text/css">
+
+  <!-- Load d3.js and c3.js -->
+  <script src="vendor/d3-3.5.6/d3.min.js" charset="utf-8"></script>
+  <script src="vendor/c3-0.4.10/c3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./_/base.css" />
+	<link rel="stylesheet" type="text/css" href="./main.css" />
+	<link rel="icon favicon"  href="http://www.gifwave.com/media/2095_spider_200s.gif">
+
+<style>
+  .container {
+    width: 90%;
+  }
+	h1, h2, h3, h4, h5, h6 {
+	font-size: inherit !important;
+	}
+</style>
+  <script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('.facet-view-simple').facetview({
+    "search_url": 'http://localhost:8983/solr/select?',
+    "search_index": 'solr',
+    "datatype": 'json',
+    "facets": [
+        {'field':'title', 'display':'Title'},
+		{'field':'url', 'display':'URL'}
+    ],
+    paging: {
+        from: 0,
+        size: 10
+    },
+    <!--"linechart_field"  : "pub_date",-->
+    <!--"dendrogram_field" : "authors", -->
+    "display_images" : false,
+    "result_display" : [
+        [
+          {
+            "pre" : "<h4><b>Title:</b> ",
+            "field" : "title",
+            "post" : "</h4>"
+          },
+		  {
+            "pre" : "<h6><b>URL:</b> ",
+            "field" : "url",
+            "post" : "</h6><br/>"
+          },
+		  {
+            "pre" : "<p><h6>Content:</h6><br/>",
+            "field" : "content",
+            "post" : "</p>"
+          }
+        ]
+    ],
+    "linkify" : true
+    }
+  );
+$('.facetview_filtershow' ).trigger( "click" );
+});
+  </script>
+</head>
+
+<body>
+	<div id="universe">
+		<nav id = "global-nav">
+			<ol id="global-nav-items" class = "nav-list-h">
+				<li id="nav-item-1" class = "nav-list-h-item">
+					<div>Home</div>
+				</li>
+				<li id="nav-item-2" class = "nav-list-h-item">
+					<div>Data Viz</div>
+				</li>
+				<li id="nav-item-3" class = "nav-list-h-item nav-item-highlight"">
+					<div>Facet Search</div>
+				</li>
+				<li id="nav-item-4" class = "nav-list-h-item">
+					<div>Dashboards</div>
+				</li>
+				<li id="nav-item-6" class = "nav-list-h-item">
+					<div id = "expand-collapse-all" class = "expand"><span class = "glyphicon glyphicon-minus"></span></div>
+				</li>
+			</ol>
+		</nav>
+		
+		<div class="container"> 
+			<div class="content">
+				<div class="page-header">
+					<h1>
+						FacetView Search and Filter
+					</h1>
+				</div>
+
+			<div class="facet-view-simple"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src = "./main.js"></script>
+	<script type="text/javascript">
+		App.init();
+	</script>
+</body>
+</html>

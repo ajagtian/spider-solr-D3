@@ -175,6 +175,7 @@ h3 {
 	min-width: 84px;
 	color:#259286;
 	font-weight: bold;
+	font-size: 86%;
 }
 
 #query-table tr:nth-child(n+2) td {
